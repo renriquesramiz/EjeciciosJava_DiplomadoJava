@@ -12,18 +12,14 @@ public class primerEjercicio {
 
 		int a, b, suma;
 
-		System.out.println("Introduzca el primer numero entero que va ha sumar: ");
+		System.out.print("Introduzca el primer numero entero que va ha sumar: ");
 		a = sc.nextInt();
-		
-		System.out.println("\n");
-		System.out.println("Introduzca el segundo numero entero que va ha sumar: ");
-		
+		System.out.print("Introduzca el segundo numero entero que va ha sumar: ");	
 		b = sc.nextInt();
 
 		suma = a + b;
 
-		System.out.println("\n");
-		System.out.println("La suma de " + a + " + " + b + " es: " + suma);
+		System.out.println("\nLa suma de " + a + " + " + b + " es: " + suma);
 
 	}
 

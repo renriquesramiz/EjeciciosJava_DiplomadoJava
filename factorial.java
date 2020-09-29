@@ -1,16 +1,38 @@
 package com.ejerciciosPracticos.diplomadoJava;
 
+import java.util.Scanner;
+
 public class factorial {
 
-	public int factor(int d) {
+	public double factor(int d) {
 
-		int fact = 1;
-		for (int i = 2; i <= d; i++) {
-			fact *= i;
+		double fact = 1;
+
+		if (d <= 1) {
+
+			fact = 1;
+			//System.out.println(num + "! = " + 1);
+
+		} else {
+
+			//System.out.print(num + "! = ");
+			for (int i = d; i != 0; i--) {
+
+				/*
+				 * System.out.print(i); if (i != 1) { System.out.print(" x ");
+				 * 
+				 * } else { System.out.print(" = "); }
+				 */
+
+				fact *= i;
+
+			}
+
+			//System.out.print(fact);
 		}
 		
-		System.out.println(fact);
 		return fact;
+
 	}
 
 	

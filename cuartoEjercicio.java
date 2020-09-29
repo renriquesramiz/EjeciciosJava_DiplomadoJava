@@ -18,13 +18,13 @@ public class cuartoEjercicio {
 		System.out.print("Introduzca el numero final: ");
 		nFinal = sc.nextInt();
 
+		//Evaluar que el numero final sea mayor que el numero de inicio
 		if (nFinal < nInicio) {
 			System.out.println("ERRROR: Numero Final debe de ser mayor al numero de Inicio!! ");
 
 		} else {
 
 			System.out.println("\nConteo de Numeros ");
-
 			for (int i = nInicio; i <= nFinal; i++) {
 
 				System.out.println(i);

@@ -10,18 +10,19 @@ public class anoiBisiesto {
 
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Introduzca el año: ");
-		int anio = sc.nextInt();
+		int A = sc.nextInt();
 
-		if ((anio % 4 == 0 && anio % 100 != 0) || (anio % 100 == 0 && anio % 400 == 0)) {
+		if ((A % 4 == 0 && A % 100 != 0) || (A % 100 == 0 && A % 400 == 0)) {
 
-			System.out.println(anio + " es un año bisiesto.");
+			System.out.println(A + " es un año bisiesto.");
 			
 			
 		}else {
 			
-			System.out.println(anio + " no es un año bisiesto.");
+			System.out.println(A + " no es un año bisiesto.");
 
 		}
+		
 
 	}
 

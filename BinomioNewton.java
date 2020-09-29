@@ -36,7 +36,7 @@ public class BinomioNewton {
 							
 				res = a +"a^" + exp;
 				for (int i = 1; i < exp; i++) {
-					r = (factorial.factor(exp) / (factorial.factor(exp - i) * factorial.factor(i)));
+					r = (int) (factorial.factor(exp) / (factorial.factor(exp - i) * factorial.factor(i)));
 					rNum = (int) (r * Math.pow(n1, exp-i) * Math.pow(n2, i));
 					
 					if(exp-i == 1) {
